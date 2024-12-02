@@ -1,0 +1,143 @@
+/* Import Fonts */
+@font-face {
+  font-family: Comfortaa;
+  src: url(Assets/Fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: PoiretOne;
+  src: url(Assets/Fonts/PoiretOne-Regular.ttf);
+}
+/*  */
+
+/* Global */
+body,
+html {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+a,
+p {
+  color: white;
+  font-family: Comfortaa;
+  font-size: 0.83vw;
+}
+/*  */
+
+/* Main Body */
+.main-body {
+}
+
+#main-body-background {
+  position: absolute;
+  z-index: -2;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(0.5px);
+}
+/*  */
+
+/* Navigation Bar */
+.topnav {
+  padding: 30px 100px 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.topnav-logoname {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#logo-image {
+  height: 100%;
+  filter: invert(100%);
+}
+
+#logo-text {
+  font-size: 2rem;
+  font-family: Comfortaa;
+}
+
+.topnav-centerbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.topnav-centerbuttons a {
+  font-size: 1.66vw;
+  border-radius: 60px;
+  padding: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.topnav-centerbuttons a:hover {
+  background-color: white;
+  color: black;
+}
+
+.topnav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*  */
+
+/* Showcase */
+.showcase {
+}
+
+#showcase-food {
+  position: absolute;
+  width: 50vw;
+  top: 20%;
+  left: 50%;
+}
+
+#countertoptexture {
+  position: absolute;
+  border-radius: 50%;
+  width: 80vw;
+  height: 80vw;
+  z-index: -1;
+  top: -20%;
+  left: 65%;
+}
+
+.showcase-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 36vw;
+  padding-top: 70px;
+  padding-left: 150px;
+}
+
+.showcase-text h1 {
+  font-family: PoiretOne;
+  color: #dcdcdc;
+  font-size: 4.15vw;
+}
+
+.showcase-text p {
+  font-size: 1.245vw;
+  color: #dcdcdc;
+}
+/*  */
+
+/* Region Menu */
+.region-menu {
+  top: 100vh;
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+}
+/*  */
