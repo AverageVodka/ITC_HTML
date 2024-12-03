@@ -40,11 +40,10 @@ p {
 
 /* Navigation Bar */
 .topnav {
-  padding: 30px 100px 30px;
+  padding: 20px 100px 20px;
   display: flex;
   justify-content: space-between;
   height: 50px;
-  background-color: rgba(0, 0, 0, 1);
 }
 
 .topnav-logoname {
@@ -91,12 +90,13 @@ p {
 
 /* Showcase */
 .showcase {
+  height: 100%;
 }
 
 #showcase-food {
   position: absolute;
   width: 50vw;
-  top: 20%;
+  top: 10%;
   left: 50%;
 }
 
@@ -107,7 +107,7 @@ p {
   height: 80vw;
   z-index: -1;
   top: -20%;
-  left: 65%;
+  left: -25%;
 }
 
 .showcase-text {
@@ -117,7 +117,8 @@ p {
   justify-content: center;
   text-align: left;
   width: 36vw;
-  padding-top: 70px;
+  height: auto;
+  padding-top: 30px;
   padding-left: 150px;
 }
 
@@ -125,19 +126,47 @@ p {
   font-family: PoiretOne;
   color: #dcdcdc;
   font-size: 4.15vw;
+  margin: 0;
 }
 
 .showcase-text p {
   font-size: 1.245vw;
   color: #dcdcdc;
 }
+
+.showcase-button {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  font-size: 2vw;
+  color: white;
+  background-color: rgb(36, 36, 36);
+  transition: filter 0.3s ease;
+  padding: 30px;
+  border-radius: 60px;
+  text-decoration: none;
+}
+
+.showcase-button:hover {
+  filter: invert(100%);
+}
+
+#showcase-button-arrow {
+  width: 50px;
+  margin: 0;
+  height: 100%;
+  filter: invert(100%);
+}
 /*  */
 
 /* Region Menu */
 .region-menu {
+  position: absolute;
   top: 100vh;
   background-color: red;
   width: 100vw;
   height: 100vh;
+  z-index: -1;
 }
 /*  */
