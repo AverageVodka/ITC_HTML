@@ -191,6 +191,7 @@ p {
   margin: 0;
   padding: 0;
   height: 70vh;
+  overflow: hidden;
 }
 
 .region-menu-buttons {
@@ -212,35 +213,33 @@ p {
 }
 
 #luzon {
-  background-image: url(Assets/luzon.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url(Assets/luzon-brown.png);
+  background-size: cover;
   background-blend-mode: darken;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
 #visayas {
-  background-image: url(Assets/visayas.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url(Assets/visayas-brown.png);
+  background-size: cover;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
 #mindanao {
-  background-image: url(Assets/mindanao.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-image: url(Assets/mindanao-brown.png);
+  background-size: cover;
   filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
 .region-buttons-text {
-  background-color: black;
+  background-color: var(--accent);
   padding: 20px;
   border-radius: 50px;
-  color: white;
+  color: var(--background);
+  border: 1px solid black;
 }
 
 #luzon:hover,
