@@ -4,33 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cookly</title>
-    <link rel="stylesheet" href="cooklystylegher.css" />
+    <link rel="stylesheet" href="cooklystyle.css" />
   </head>
   <body>
     <div class="main-body">
-      <img
-        id="main-body-background"
-        src="Assets/minimalist-gradient-background-gher.jpg"
-      />
       <nav class="topnav">
         <section class="topnav-logoname">
           <img id="logo-image" src="Assets/chefhat.png" />
           <p id="logo-text">Cookly</p>
         </section>
         <section class="topnav-centerbuttons">
-          <a href="#">Home</a>
-          <a class="topnav-centerbuttons-light" href="#"
-            >History of Philippine Cuisine</a
-          >
+          <a href="index.html">Home</a>
+          <a href="#">History of Philippine Cuisine</a>
         </section>
         <section class="topnav-buttons">
-          <a class="topnav-centerbuttons-light" href="#">About Us</a>
+          <a href="#">About Us</a>
         </section>
       </nav>
       <section class="showcase">
-        <img id="showcase-food" src="Assets/foodstockphoto.png" />
-        <img id="countertoptexture" src="Assets/blackcountertoptexture.jpg" />
         <section class="showcase-text">
+          <img id="countertexture" src="Assets/blackcountertoptexture.jpg" />
           <h1>Your Gateway To The Flavors Of The Philippines</h1>
           <p>
             Discover the rich and diverse culinary heritage of the Philippines!
@@ -40,18 +33,21 @@
             gateway to authentic Filipino flavors. Let your taste buds travel
             across the islands—one recipe at a time!
           </p>
-          <a class="showcase-button" href="#">
+          <a class="showcase-button" href="#region-menu">
             <img id="showcase-button-arrow" src="Assets/arrowdown.png" />
             Explore
           </a>
         </section>
+        <img id="showcase-food" src="Assets/foodstockphoto.png" />
       </section>
     </div>
-    <div class="region-menu">
-      <p>
-        placeholder for region Selector (just imagine Luzon, Visayas, and
-        Mindanao Buttons lol)
-      </p>
+    <div id="region-menu">
+      <section class="region-menu-buttons">
+        <a href="luzon.html">Luzon</a>
+        <a href="visayas.html">Visayas</a>
+        <a href="mindanao.html">Mindanao</a>
+      </section>
+      <section class="region-menu-showcase"></section>
     </div>
   </body>
 </html>

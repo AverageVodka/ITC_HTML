@@ -1,0 +1,90 @@
+/* Import Fonts */
+@font-face {
+  font-family: Comfortaa;
+  src: url(Assets/Fonts/Comfortaa-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: PoiretOne;
+  src: url(Assets/Fonts/PoiretOne-Regular.ttf);
+}
+/*  */
+
+/* Global */
+:root {
+  --text: #050315;
+  --background: #fbfbfe;
+  --primary: #fcce96;
+  --secondary: #faf2d1;
+  --accent: #be7e51;
+}
+
+body,
+html {
+  margin: 0;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a,
+p {
+  color: black;
+  font-family: Comfortaa;
+  font-size: 0.83vw;
+  margin: 0;
+}
+/*  */
+
+/* Navigation Bar */
+.topnav {
+  padding: 20px 100px 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.topnav-logoname {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#logo-image {
+  height: 100%;
+  z-index: 1;
+}
+
+#logo-text {
+  font-size: 2rem;
+  font-family: Comfortaa;
+  z-index: 1;
+}
+
+.topnav-centerbuttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.topnav-centerbuttons a {
+  font-size: 1.66vw;
+  border-radius: 60px;
+  padding: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.topnav-centerbuttons a:hover {
+  background-color: #be7e51;
+  color: #fbfbfe;
+}
+
+.topnav-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topnav-buttons a {
+}
+/*  */
