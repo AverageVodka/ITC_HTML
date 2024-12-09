@@ -190,7 +190,7 @@ p {
   z-index: 1;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 70vh;
 }
 
 .region-menu-buttons {
@@ -207,5 +207,26 @@ p {
   height: 100%;
   width: 100%;
   border: 1px solid black;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+#luzon {
+  background-image: url(Assets/luzon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+}
+
+#visayas {
+  background-image: url(Assets/visayas.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#mindanao {
+  background-image: url(Assets/mindanao.png);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /*  */
