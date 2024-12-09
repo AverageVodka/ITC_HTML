@@ -29,15 +29,17 @@ html {
 h1 {
   font-family: PoiretOne;
   color: #050315;
-  font-size: 6.15vw;
+  font-size: 4.15vw;
   margin: 0;
 }
 
 a,
-p {
+p,
+ul,
+li {
   color: black;
   font-family: Comfortaa;
-  font-size: 0.83vw;
+  font-size: 1.83vw;
   margin: 0;
 }
 /*  */
@@ -96,38 +98,12 @@ p {
 }
 /*  */
 
-/* Region Header */
-.region-header {
+/* About Us */
+.about-us {
+  margin: 50px 200px 50px 200px;
+  padding: 50px 200px 50px 200px;
   background-color: var(--primary);
-}
-/*  */
-
-/* Recipe Menu */
-.recipe-entry {
-  display: flex;
-  border: 2px solid black;
+  border-radius: 50px;
 }
 
-.recipe-menu h1 {
-  font-size: 3.15vw;
-}
-
-.recipe-image {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  border: 1px solid black;
-}
-
-.recipe-description {
-  width: 15vw;
-}
-
-.recipe-ingredients {
-  width: 35vw;
-}
-
-.recipe-steps {
-  width: 35vw;
-}
 /*  */
