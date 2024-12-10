@@ -1,7 +1,7 @@
 /* Import Fonts */
 @font-face {
   font-family: Comfortaa;
-  src: url(Assets/Fonts/Comfortaa-VariableFont_wght.ttf);
+  src: url(Assets/Fonts/Inter.ttf);
 }
 
 @font-face {
@@ -121,6 +121,7 @@ p {
   height: auto;
   padding-top: 30px;
   z-index: 0;
+  gap: 20px;
 }
 
 .showcase-text h1 {

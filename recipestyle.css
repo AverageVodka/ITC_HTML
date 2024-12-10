@@ -1,7 +1,7 @@
 /* Import Fonts */
 @font-face {
   font-family: Comfortaa;
-  src: url(Assets/Fonts/Comfortaa-VariableFont_wght.ttf);
+  src: url(Assets/Fonts/Inter.ttf);
 }
 
 @font-face {
@@ -40,6 +40,13 @@ p {
   font-size: 0.83vw;
   margin: 0;
 }
+
+li {
+  color: black;
+  font-family: Comfortaa;
+  font-size: 1vw;
+  margin: 0;
+}
 /*  */
 
 /* Navigation Bar */
@@ -48,6 +55,7 @@ p {
   display: flex;
   justify-content: space-between;
   height: 50px;
+  border-bottom: 2px solid black;
 }
 
 .topnav-logoname {
@@ -98,7 +106,11 @@ p {
 
 /* Region Header */
 .region-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--primary);
+  padding-bottom: 15px;
 }
 /*  */
 
@@ -118,6 +130,7 @@ p {
   height: 350px;
   object-fit: cover;
   border: 1px solid black;
+  margin-right: 50px;
 }
 
 .recipe-description {

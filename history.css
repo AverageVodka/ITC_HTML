@@ -41,6 +41,7 @@ p {
   display: flex;
   justify-content: space-between;
   height: 50px;
+  border-bottom: 2px solid black;
 }
 
 .topnav-logoname {
@@ -92,11 +93,15 @@ p {
 /* History Showcase */
 .history-text {
   padding: 50px 200px 50px 200px;
+  background-image: url(Assets/philippines-1.png);
+  background-size: cover;
 }
 
 .history-text p {
-  background-color: var(--primary);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
   padding: 50px;
   border-radius: 50px;
+  text-align: center;
 }
 /*  */
